@@ -14,3 +14,6 @@ Bundlr is a lightweight C# library for bundling css and javascript. It can also 
                     .AddJsDirectory("www/profile/scripts")
                     .BundleJs("www/profile/scripts/bundled.js");
 ```
+
+### Thanks
+- This project uses a port of Douglas Crockford's [JSMin](https://github.com/Taritsyn/JSMin.NET)
